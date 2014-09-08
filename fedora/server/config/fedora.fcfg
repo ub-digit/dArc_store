@@ -661,7 +661,7 @@ https://wiki.duraspace.org/display/FEDORA36/Spring+Security
       <comment>When true, objects are validated before returned to the 
             pool.</comment>
     </param>
-    <param name="jdbcURL" value="jdbc:derby:/Users/leonard/Documents/projects/gub/fedora-clean/derby/fedora3;create=true">
+    <param name="jdbcURL" value="jdbc:derby:BASE-DIR-REPLACE-TOKEN/derby/fedora3;create=true">
       <comment>The JDBC connection URL.</comment>
     </param>
     <param name="ddlConverter" value="org.fcrepo.server.utilities.DerbyDDLConverter"/>

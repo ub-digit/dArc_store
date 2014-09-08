@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
-  <Parameter name="fedora.home" value="/Users/leonard/Documents/projects/gub/fedora-clean" />
+  <Parameter name="fedora.home" value="BASE-DIR-REPLACE-TOKEN" />
 </Context>

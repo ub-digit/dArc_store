@@ -205,7 +205,7 @@ https://wiki.duraspace.org/display/FEDORA36/Spring+Security
             required if GSearchDOManager is used, and the service requires 
             authentication.</comment>
     </param>
-    <param name="pidNamespace" value="changeme">
+    <param name="pidNamespace" value="darc">
       <comment>This is the namespace id for pids of newly-created objects. 
 	    	This should be unique for a repository. It can be from 1 to 17 
 	    	characters, and may only contain A-Z, a-z, 0-9, &apos;.&apos;, or &apos;-&apos; (dash).</comment>

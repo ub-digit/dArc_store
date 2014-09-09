@@ -1,3 +1,26 @@
+# files generated from templates
 fedora/server/config/fedora.fcfg
 fedora/server/config/spring/akubra-llstore.xml
 fedora/tomcat/conf/Catalina/localhost/fedora.xml
+
+# data stored/indexed in Fedora
+fedora/data/
+fedora/derby/
+
+# files created by a running Fedora
+fedora/server/fedora-internal-use/
+fedora/server/logs/
+fedora/server/status
+
+# files created by a running Tomcat
+fedora/tomcat/logs/
+fedora/tomcat/work/
+fedora/tomcat/temp/
+
+# unpacked wars
+fedora/tomcat/webapps/fedora-demo/
+fedora/tomcat/webapps/fedora/
+fedora/tomcat/webapps/fop/
+fedora/tomcat/webapps/imagemanip/
+fedora/tomcat/webapps/saxon/
+

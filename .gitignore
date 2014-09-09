@@ -1,0 +1,3 @@
+fedora/server/config/fedora.fcfg
+fedora/server/config/spring/akubra-llstore.xml
+fedora/tomcat/conf/Catalina/localhost/fedora.xml

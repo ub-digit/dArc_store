@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ "$#" -ne 1 ]; 
     then echo "syntax: $0 basedir"
@@ -12,6 +12,5 @@ basedir="${basedir//\//\\/}"
 for file in fedora/server/config/fedora.fcfg fedora/server/config/spring/akubra-llstore.xml fedora/tomcat/conf/Catalina/localhost/fedora.xml
 do
   echo Replacing in $file
-  cat $file | sed "s/BASE-DIR-REPLACE-TOKEN/${basedir}/" > $file.tmp
-  mv $file.tmp $file
+  cat $file.template | sed "s/BASE-DIR-REPLACE-TOKEN/${basedir}/" > $file
 done

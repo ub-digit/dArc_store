@@ -392,7 +392,7 @@ https://wiki.duraspace.org/display/FEDORA36/Spring+Security
 			value=&quot;http://example.org/terms#&quot; will allow a query to use 
 			test:apple instead of http://example.org/terms#apple</comment>
     </param>
-    <param name="level" value="0">
+    <param name="level" value="1">
       <comment>(required) 
             Index level. Currently, only 0, and 1 are supported levels. 
             0 = off and 1 = on.
